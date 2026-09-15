@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +7,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
         <h1>Hello folks</h1>
     </header>
- <nav class="indice">
-    <h2>Índice de contenidos</h2>
-    <section class="Entrenamiento_01">
-            <h2>Entrenamiento 01</h2>
-    <ul>
-        <li><a href="Entrenamiento_01\Ejercicio_01\index_Ejercicio_01.html">Ejercicio 01</a></li>
-        <li><a href="Entrenamiento_01\Ejercicio_02\index_Ejercicio_02.html">Ejercicio 02</a></li>
-        <li><a href="Entrenamiento_01\Ejercicio_03\index_Ejercicio_03.html">Ejercicio 03</a></li>
-    </ul>
-    </section>
-    <section class="Entrenamiento_02">
-            <h2>Entrenamiento 02</h2>
-    <ul>       
-        <li><a href="Entrenamiento_02\Modelo_01\index.html">Modelo 01</a></li>
-        <li><a href="Entrenamiento_02\Modelo_02\index.html">Modelo 02</a></li>
-        <li><a href="Entrenamiento_02\Modelo_03\index.html">Modelo 03</a></li>
-        <li><a href="Entrenamiento_02\Modelo_04\index.html">Modelo 04</a></li>
-        <li><a href="Entrenamiento_02\Modelo_05\index.html">Modelo 05</a></li>
 
-    </ul>
-    </section>
- </nav>
-    <main>
-        <section class="Entrenamiento_01">
+    <nav class="indice">
+        <h2>Índice de contenidos</h2>
+        
+        <div class="grupo-indice">
             <h3>Entrenamiento 01</h3>
             <ul>
-                <li><a href="Entrenamiento_01\Ejercicio_01\index_Ejercicio_01.html">Ver Contenido</a></li>
-                
+                <li><a href="Entrenamiento_01/Ejercicio_01/index_Ejercicio_01.html">Ejercicio 01</a></li>
+                <li><a href="Entrenamiento_01/Ejercicio_02/index_Ejercicio_02.html">Ejercicio 02</a></li>
+                <li><a href="Entrenamiento_01/Ejercicio_03/index_Ejercicio_03.html">Ejercicio 03</a></li>
             </ul>
-            <p>Contenido del ejercicio 01.</p>
-        </section>
-        <section class="Entrenamiento_02">
+        </div>
+
+        <div class="grupo-indice">
             <h3>Entrenamiento 02</h3>
-            <ul>
-                <li><a href="Entrenamiento_02\Modelo_01\index.html">Ver Contenido</a></li>
+            <ul>       
+                <li><a href="Entrenamiento_02/Modelo_01/index.html">Modelo 01</a></li>
+                <li><a href="Entrenamiento_02/Modelo_02/index.html">Modelo 02</a></li>
+                <li><a href="Entrenamiento_02/Modelo_03/index.html">Modelo 03</a></li>
+                <li><a href="Entrenamiento_02/Modelo_04/index.html">Modelo 04</a></li>
+                <li><a href="Entrenamiento_02/Modelo_05/index.html">Modelo 05</a></li>
             </ul>
-            <p>Contenido del ejercicio 02.</p>
+        </div>
+    </nav>
+
+    <main>
+        <section class="tarjeta-entrenamiento">
+            <h3>Entrenamiento 01</h3>
+            <p>Contenido del ejercicio 01.</p>
+            <a href="Entrenamiento_01/Ejercicio_01/index_Ejercicio_01.html" class="boton">Ver Contenido</a>
         </section>
-        
+
+        <section class="tarjeta-entrenamiento">
+            <h3>Entrenamiento 02</h3>
+            <p>Contenido del ejercicio 02.</p>
+            <a href="Entrenamiento_02/Modelo_01/index.html" class="boton">Ver Contenido</a>
+        </section>
     </main>
+
 </body>
 </html>

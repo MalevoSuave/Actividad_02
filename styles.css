@@ -1,38 +1,116 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden; 
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 100vw;
-    height: 100%;
-    padding: 1rem;
-    overflow-x: hidden;
+    background-color: #f4f7f8;
+    color: #333333;
+    line-height: 1.6;
+    padding: 2rem 5%; 
 }
+
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #446270;
+    font-size: 2.2rem;
+}
+
+
+.indice {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.25rem 0.4rem rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.indice h2 {
+    color: #446270;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.125rem solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.grupo-indice {
+    margin-bottom: 1rem;
+}
+
+.grupo-indice h3 {
+    font-size: 1.1rem;
+    color: #555555;
+    margin-bottom: 0.5rem;
+}
+
+.grupo-indice ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+
+a {
+    color: #2b7a78;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 main {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
-}
-
-section {
-    width: 15%;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    border: 0.06rem solid #000000;
-    border-radius: 1rem;
-    gap: 1rem;
-}
-
-h2 {
-    font-size: 1.4rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-    color: #446270;
+    gap: 1.5rem;
     width: 100%;
+}
+
+.tarjeta-entrenamiento {
+    background-color: #ffffff;
+    border: 0.0625rem solid #dcdcdc;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    flex: 1 1 18rem; 
+    max-width: 100%; 
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta-entrenamiento h3 {
+    color: #446270;
+}
+
+
+.boton {
+    display: inline-block;
+    background-color: #446270;
+    color: #ffffff;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+.boton:hover {
+    background-color: #314752;
+    text-decoration: none;
 }
